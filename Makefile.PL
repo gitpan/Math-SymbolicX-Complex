@@ -6,11 +6,11 @@ WriteMakefile(
     'NAME'         => 'Math::SymbolicX::Complex',
     'VERSION_FROM' =>
       'lib/Math/SymbolicX/Complex.pm',    # finds $VERSION
+    'LICENSE' => 'perl',
     'PREREQ_PM' => {
   Test::More => 0.44,
   Math::SymbolicX::ParserExtensionFactory => 0.01,
   Math::Symbolic => 0.129,
-  Parse::RecDescent => 0,
     },    # e.g., Module::Name => 1.1
     (
         $] >= 5.005

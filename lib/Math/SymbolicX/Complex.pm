@@ -13,7 +13,7 @@ use Math::Complex;
 
 package Math::SymbolicX::Complex;
 
-our $VERSION = 0.01;
+our $VERSION = '1.00';
 
 # Regular expression for floating point numbers.
 # Stolen from Math::Complex version 1.34, but since this will be released
@@ -147,7 +147,7 @@ complex number as arguments. That means, it uses the
 C<Math::Complex->make(RE, IM)> method to create the Math::Complex
 objects. Similarily, C<polar()> uses the C<Math::Complex->emake(R, ARG)>
 syntax provided by Math::Complex. (Polar notation is r*e^(i*arg). It is
-equivalent to the x+i*y notation because it also covers the whole complex
+equivalent to the C<x+i*y> notation because it also covers the whole complex
 plane.)
 
 There are some usability extensions to the simple C<complex(RE, IM)> and
@@ -165,7 +165,7 @@ the C<==> operator will break.
 
 =head1 AUTHOR
 
-Copyright (C) 2004 Steffen Mueller
+Copyright (C) 2004-2007 Steffen Mueller
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

@@ -1,12 +1,16 @@
 --- #YAML:1.0
-name: Math-SymbolicX-Complex
-version: 0.01
-abstract: Complex number support for the Math::Symbolic parser
-license: perl
-distribution_type: module
-requires:
-  Test::More: 0.44
-  Math::SymbolicX::ParserExtensionFactory: 0.01
-  Math::Symbolic: 0.129
-  Parse::RecDescent: 0
-dynamic_config: 0
+name:                Math-SymbolicX-Complex
+version:             1.00
+abstract:            Complex number support for the Math::Symbolic parser
+license:             perl
+generated_by:        ExtUtils::MakeMaker version 6.31
+distribution_type:   module
+requires:     
+    Math::Symbolic:                0.129
+    Math::SymbolicX::ParserExtensionFactory: 0.01
+    Test::More:                    0.44
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Steffen Mueller <symbolic-module at steffen-mueller dot net>
